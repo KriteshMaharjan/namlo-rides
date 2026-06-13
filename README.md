@@ -2,7 +2,7 @@
 
 A frontend engineering challenge submission for Namlo Technologies Pvt. Ltd.
 
-Live Demo: [\[your-vercel-link-here\]](https://namlo-rides-three.vercel.app/)
+Live Demo: https://namlo-rides-three.vercel.app/
 
 ---
 
@@ -109,5 +109,5 @@ All Firebase listeners use `onValue` and are unsubscribed via the cleanup functi
 ## Author
 
 Kritesh Maharjan  
-GitHub: [\[github.com/KriteshMaharjan\]](https://github.com/KriteshMaharjan)
-Portfolio: [\[https://portfolio-ecru-nine-zi4iacy1xk.vercel.app/\]](https://portfolio-ecru-nine-zi4iacy1xk.vercel.app/)
+GitHub: https://github.com/KriteshMaharjan
+Portfolio: https://portfolio-ecru-nine-zi4iacy1xk.vercel.app/
