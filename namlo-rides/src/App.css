@@ -1,0 +1,85 @@
+.role-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-secondary);
+  padding: 1rem;
+}
+
+.role-box {
+  background: var(--bg-card);
+  padding: 2.5rem 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+  border: 1px solid var(--border);
+}
+
+.role-box h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.role-box p {
+  color: var(--text-secondary);
+  margin-bottom: 1.8rem;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+.role-buttons {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.role-btn {
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.role-btn:hover {
+  transform: translateY(-1px);
+}
+
+.role-btn.rider {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.role-btn.rider:hover {
+  background: var(--accent-hover);
+}
+
+.role-btn.driver {
+  background: var(--success);
+  color: #ffffff;
+}
+
+.role-btn.driver:hover {
+  background: #059669;
+}
+
+.role-btn.history {
+  width: 100%;
+  margin-top: 0.5rem;
+  background: transparent;
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+}
+
+.role-btn.history:hover {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
