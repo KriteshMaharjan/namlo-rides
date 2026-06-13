@@ -77,7 +77,7 @@ Open `http://localhost:5173` in your browser.
 
 The app uses two separate data layers with distinct responsibilities:
 
-**Firebase Realtime Database** handles all live, transient ride state — status updates, location data, and trip details. Any change written by one client is instantly reflected in all connected clients via Firebase's WebSocket layer.
+**Firebase Realtime Database** handles all live, transient ride state, status updates, location data, and trip details. Any change written by one client is instantly reflected in all connected clients via Firebase's WebSocket layer.
 
 **MockAPI.io** handles persistent ride history. When a ride reaches a terminal state (completed, cancelled, or rejected), the app fires a POST request to MockAPI to archive the record. The History page fetches this log via a standard GET request.
 
@@ -102,7 +102,7 @@ All Firebase listeners use `onValue` and are unsubscribed via the cleanup functi
 
 - Driver location is currently hardcoded. In a production system this would use the Geolocation API.
 - Pickup and drop coordinates are map-click based, not address-search based.
-- Single active ride at a time by design — this matches the simulation scope.
+- Single active ride at a time by design.
 
 ---
 
